@@ -35,7 +35,7 @@ const App = () => {
       </form>
       <div className='p-10 lg:w-1/2'> 
       <h1 className='text-4xl font-bold'>Recent Notes:</h1>
-      <div className='flex flex-wrap gap-5 mt-5 overflow-auto h-[90%] items-start bg-black'>
+      <div className='flex flex-wrap gap-5 mt-5 overflow-auto h-full items-start bg-black'>
       {/* <div className='h-52 w-40 rounded-2xl bg-white'></div> */}
       {task.map(function(elem, idx){
         return <div key={idx} className="flex justify-between flex-col items-start relative h-52 w-40 bg-cover rounded-xl text-black pt-9 pb-4 px-4 bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')]">
