@@ -26,7 +26,7 @@ const App = () => {
   }
 
   return (
-    <div className='h-screen lg:flex bg-black text-white'>
+    <div className='min-h-screen lg:flex bg-black text-white'>
       <form onSubmit={(e)=>{submitHandler(e)}} className='flex items-start p-10 gap-4 flex-col lg:w-1/2'>
       <h1 className='text-4xl font-bold'>Add Note</h1>
       <input type="text" placeholder='Enter Note Heading' className='px-5 py-2 w-full border-2 rounded outline-none font-medium' value={title} onChange={(e)=>{setTitle(e.target.value)}} />
